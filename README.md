@@ -6,6 +6,7 @@ A simple file encryption/ decryption script for storing files safe and in an enc
 <li>Set Database Credentials in <code>core/init.php</code><i>(this file is included in every php make changes here to reflect in all)</i></li>
 <li>Import DB Backup Provided. Default Login Creds: admin/admin1234</li>
 <li>(If Needed)Register Using register.php</li>
+<li>All Encrypted file are encrypted with password <code>1</code></li>
 </ol>
 
 <h2>3rd Party Libraries</h2>
