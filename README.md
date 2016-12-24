@@ -1,6 +1,7 @@
 # safe-storage
 A simple file encryption/ decryption script for storing files safe and in an encrypted format written in PHP.
-
+<h1>Features:</h1>
+<p>Encrypt files with a combination of randomly generated special character and your provided password. User's password never stored any where. So there is + point in security. This whole script was made for personal use. To encrypt our personal files and keep them safe on cloud on our prefered hosting provider. <b>The UI is not so awesome but Responsive :D </b></p>
 <h2>Steps</h2>
 <ol>
 <li>Set Database Credentials in <code>core/init.php</code><i>(this file is included in every php make changes here to reflect in all)</i></li>
