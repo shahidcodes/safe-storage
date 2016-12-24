@@ -19,6 +19,8 @@ class Encryption{
         return false;
     }
     public function encrypt($input_private_key){
+        // Include EnCrypter here
+        include "rncryptor/Encryptor.php";
         // get file variables
         $file =  $_FILES["InputFile"]["tmp_name"]; //"tmp/x.txt"
         $filename = $_FILES["InputFile"]["name"];
@@ -34,7 +36,7 @@ class Encryption{
         $random_key = str_shuffle( substr("~!`#$#$%^&*()+=}|][{/*+';<:,?.>", 0, 10) );
         // concat both keys and encrypt
         $encryption_key = $random_key . $input_private_key;
-        echo $encryption_key;
+        // echo $encryption_key;
         $encryptedB64 = $cryptor->encrypt( $file_content, $encryption_key );
 
         // generate a random position in encrypted data
@@ -60,6 +62,8 @@ class Encryption{
     }
 
     public function decrypt($input_private_key, $filechecksum){
+        //include decrypter
+        include "rncryptor/Decryptor.php";
         // init decryptor
         $decryptor = new \RNCryptor\Decryptor();
         // get file name from db

@@ -1,8 +1,8 @@
 <?php
 session_start();
 header('X-Frame-Options : DENY') ;
-// include rncryptor
-include "../vendor/autoload.php";
+// include rncryptor base cryptor
+include "rncryptor/Cryptor.php";
 $GLOBALS['config'] = array(
 	'app' => [
 		'name' 		=> 'Safe Storage',

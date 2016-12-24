@@ -24,14 +24,19 @@ $toasts .= ']';
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Safe Storage!!</title>
+	<title>Secure Storage</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="theme-color" content="#00695c">
+	<!-- Etc Meta-->
+	<meta name="description" content="Keep your personal file safe" />
+	<meta name="author" content="Shahid Kamal">
+	<meta name="keywords" content="safe,storage,sh4hidkh4n,shahidkh4n" />
+	<meta name="robots" content="index, follow" />
 	<!-- <link rel="stylesheet" type="text/css" href="includes/css/materialize.min.css"> -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 	<!-- <script type="text/javascript" src="includes/js/jquery.js"></script> -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<meta name="theme-color" content="#00695c">
   <style type="text/css">
     #showImage{
       width: 80%;
